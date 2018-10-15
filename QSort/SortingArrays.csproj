@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B7053B00-DFC3-4E16-A1D7-0B8826789AAA}</ProjectGuid>
+    <ProjectGuid>{FAF223A3-939D-4C17-8F13-75971511374F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MSort</RootNamespace>
-    <AssemblyName>MSort</AssemblyName>
+    <RootNamespace>SortingArrays</RootNamespace>
+    <AssemblyName>SortingArrays</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MSortLib.cs" />
+    <Compile Include="ArrayCustomSort.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

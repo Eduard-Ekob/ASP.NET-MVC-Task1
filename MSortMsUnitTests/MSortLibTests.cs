@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using QSort;
+using SortingArrays;
 
 namespace MSort.Tests
 {
@@ -14,7 +14,7 @@ namespace MSort.Tests
     [TestClass]
     public class MSortLibTests
     {
-        const int SizeArr = 10000;
+       
         [TestMethod()]
         public void MergeSortTest()
         {

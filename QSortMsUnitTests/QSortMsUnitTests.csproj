@@ -36,9 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="QSort, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="SortingArrays, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\QSort.dll</HintPath>
+      <HintPath>..\MSortMsUnitTests\bin\Debug\SortingArrays.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>

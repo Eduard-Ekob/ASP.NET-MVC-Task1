@@ -1,13 +1,13 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using QSort;
+using SortingArrays;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using QSort;
+using SortingArrays;
 
-namespace QSort.Tests
+namespace SortingArrays.Tests
 {
     [TestClass]
     public class QSortLibTests

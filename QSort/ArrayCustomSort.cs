@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace QSort
+namespace SortingArrays
 {   /// <summary>
     /// ArrayCustomSort class for sorting array at quick sorting algorithm.
     /// </summary>
@@ -83,21 +83,21 @@ namespace QSort
 
         private static void RecursiveCall(int[] incomming, int firstPtr, int lastPtr)
         {
-            if (firstPtr < lastPtr)//если номер первого меньше последнего элемента
+            if (firstPtr < lastPtr)//if number of first element less than last element
             {
-                RecursiveCall(incomming, firstPtr, (firstPtr + lastPtr) / 2);//сортировка левой части
-                RecursiveCall(incomming, (firstPtr + lastPtr) / 2 + 1, lastPtr);//сортировка правой части
-                Merge(incomming, firstPtr, lastPtr);//слияние
+                RecursiveCall(incomming, firstPtr, (firstPtr + lastPtr) / 2);//sorting left side
+                RecursiveCall(incomming, (firstPtr + lastPtr) / 2 + 1, lastPtr);//sorting right side
+                Merge(incomming, firstPtr, lastPtr);//Merge
             }
         }
 
         private static void Merge(int[] incomming, int firstPtr, int lastPtr)
         {
-            //start, final – номера первых элементов левой и правой частей
-            //intermed – массив, middle - хранит номер среднего элемента
-            int middle = (firstPtr + lastPtr) / 2;//вычисление среднего элемента
-            int start = firstPtr;//начало левой части
-            int final = middle + 1;//начало правой части
+            //start, final – numbers first variables left and right sides
+            //intermed – массив, middle - numbler of middle elements
+            int middle = (firstPtr + lastPtr) / 2;//calculate middle element
+            int start = firstPtr;//Start position left side
+            int final = middle + 1;//Start position right side
             int[] intermed = new int[incomming.Length];
             for (int i = firstPtr; i <= lastPtr; i++)
             {
@@ -112,7 +112,7 @@ namespace QSort
                     final++;
                 }
             }
-            for (int i = firstPtr; i <= lastPtr; i++)//возвращение результата в список
+            for (int i = firstPtr; i <= lastPtr; i++)//return result to list
             {
                 incomming[i] = intermed[i];
             }

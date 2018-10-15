@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QSort", "QSort\QSort.csproj", "{FAF223A3-939D-4C17-8F13-75971511374F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingArrays", "QSort\SortingArrays.csproj", "{FAF223A3-939D-4C17-8F13-75971511374F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QSortMsUnitTests", "QSortMsUnitTests\QSortMsUnitTests.csproj", "{2609C459-A682-4813-9EE2-622CB1C915C8}"
 EndProject

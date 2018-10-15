@@ -1,6 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
-using QSort;
+using SortingArrays;
 
 //using QSort;
 

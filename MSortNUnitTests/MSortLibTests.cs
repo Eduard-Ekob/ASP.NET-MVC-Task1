@@ -1,5 +1,5 @@
 ﻿using System;
-using QSort;
+using SortingArrays;
 using NUnit.Framework;
 
 
