@@ -1,21 +1,28 @@
 ﻿using System;
 using NUnit.Framework;
 using QSort;
+
+//using QSort;
+
 namespace QSortNUnitTests
 {
+    /// <summary>
+    /// Test quick sorting by NUnit
+    /// </summary>
     [TestFixture]
     public class QSortLibTests
     {
         const int SizeArr = 100000;
         [Test]
         public void QuickSortTest()
-        {
-            
+        {            
             int[] arr = new int[SizeArr];
             FeelArr(arr);
-            QSortLib.QuickSort(arr);
+            ArrayCustomSort.QuickSort(arr);
             Assert.IsTrue(IsSorted(arr));
         }
+
+
         private void FeelArr(int[] arr)
         {
             Random rnd = new Random();

@@ -1,10 +1,13 @@
 ﻿using System;
-using MSort;
+using QSort;
 using NUnit.Framework;
 
 
 namespace MSortNUnitTests
 {
+    /// <summary>
+    /// Test quick sorting by NUnit
+    /// </summary>
     [TestFixture]
     public class MSortLibTests
     {
@@ -12,10 +15,9 @@ namespace MSortNUnitTests
         [Test]
         public void QuickSortTest()
         {
-
             int[] arr = new int[SizeArr];
             FeelArr(arr);
-            MSortLib.MergeSort(arr);
+            ArrayCustomSort.MergeSort(arr);
             Assert.IsTrue(IsSorted(arr));
         }
         private void FeelArr(int[] arr)
